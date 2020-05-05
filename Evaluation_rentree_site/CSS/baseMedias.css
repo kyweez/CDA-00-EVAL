@@ -1,0 +1,54 @@
+@media (max-width: 1300px){
+    body {
+        max-width: 97vw;
+    }
+}
+
+@media (max-width: 1100px){
+    .cell-head{
+        font-size: 1.4rem;
+    }
+    [class^=cell-content]{
+        font-size: 1.4rem;
+        text-indent: 0.3rem;
+    }
+}
+@media (max-width: 900px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .cell-head{
+        font-size: 1.1rem;
+    }
+    [class^=cell-content]{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 750px){
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    .cell-head{
+        font-size: 0.9rem;
+    }
+    [class^=cell-content]{
+        font-size: 0.90rem;
+        text-indent: 0.1rem;
+    }
+}
+@media (max-width: 550px){
+    #logo img{
+        width: 100%;
+        padding: 0;
+    }
+    table{
+        display: inline-block;
+        overflow: auto;
+    }
+}
