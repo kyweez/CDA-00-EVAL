@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BiggerSquare {
+public class BiggestSquare {
 
 	public static void main(String[] args) {
 		//Declaration des variables 
@@ -21,6 +21,7 @@ public class BiggerSquare {
 		sc.close();
 		
 		//Affichage du resultat
-		System.out.println("Le carré du plus grand des 2 nombres est : " + (number1>number2?number1*number1:number2*number2));
+		System.out.println("Le carré du plus grand des 2 nombres est : " 
+							+ (number1>number2?number1*number1:number2*number2));
 	}
 }
